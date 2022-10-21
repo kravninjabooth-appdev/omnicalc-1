@@ -10,6 +10,7 @@ Rails.application.routes.draw do
 
   get("/square_root/new", {:controller => "application", :action => "blank_sqrt"})
 
+  get("/square_root/results", {:controller => "application", :action => "calculate_sqrt"})
 
 
 end

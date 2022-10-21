@@ -33,4 +33,11 @@ class ApplicationController < ActionController::Base
     render ({:template => "calculation_templates/blank_sqrt_form.html.erb"})
   end
 
+#calculate_sqrt
+  def calculate_sqrt
+ 
+    @num = params.fetch("user_number").to_f
+    @squarert_of_num = @num **0.5
+  render ({:template => "calculation_templates/squarert_results.html.erb"})
+  end
 end
