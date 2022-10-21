@@ -12,4 +12,10 @@ class ApplicationController < ActionController::Base
     render ({:template => "calculation_templates/square_results.html.erb"})
   end
 
+  def calculate_random
+
+    render ({:template => "calculation_templates/rand_results.html.erb"})
+
+  end
 end
+
