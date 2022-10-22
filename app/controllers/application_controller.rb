@@ -46,10 +46,10 @@ class ApplicationController < ActionController::Base
     render ({:template => "calculation_templates/blank_payment_form.html.erb"})
   end
 
- # def calculate_pymt
+ def calculate_pymt
  
     # @num = 
     # 
-  #render ({:template => "calculation_templates/payment_results.html.erb"})
-  #end
+  render ({:template => "calculation_templates/payment_results.html.erb"})
+  end
 end
