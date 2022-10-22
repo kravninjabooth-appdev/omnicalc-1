@@ -40,4 +40,16 @@ class ApplicationController < ActionController::Base
     @squarert_of_num = @num **0.5
   render ({:template => "calculation_templates/squarert_results.html.erb"})
   end
+
+  def blank
+
+    render ({:template => "calculation_templates/blank_payment_form.html.erb"})
+  end
+
+ # def calculate_pymt
+ 
+    # @num = 
+    # 
+  #render ({:template => "calculation_templates/payment_results.html.erb"})
+  end
 end
