@@ -51,5 +51,5 @@ class ApplicationController < ActionController::Base
     # @num = 
     # 
   #render ({:template => "calculation_templates/payment_results.html.erb"})
-  end
+  #end
 end
